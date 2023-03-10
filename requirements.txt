@@ -1,6 +1,6 @@
-pip install matplotlib
-pip install math
-pip install pandas
-pip install re
-pip install numpy
-pip install streamlit
+matplotlib
+math
+pandas
+re
+numpy
+streamlit
