@@ -133,7 +133,7 @@ for n, letter in enumerate(name):
     plt.axis('off')
 
 #Generate the plot
-tiled_circles = plt.subplots_adjust(wspace=0.05, hspace=0.05)
+#plt.subplots_adjust(wspace=0.05, hspace=0.05)
 
 #Display it in the Streamlit app
-st.pyplot(tiled_circles)
+st.pyplot(plt.subplots_adjust(wspace=0.05, hspace=0.05))
