@@ -24,7 +24,7 @@ st.write("### Wait, what!? Each letter of the alphabet has been mapped to an rgb
          color. Enter any text to generate an image!")
 
 #Create a text input box
-input = st.text_input("Enter text", "ABC")
+input = st.text_input("Enter text", "abcdefg")
 
 #Generate the charts
 plt.subplots(sharex=True, sharey=True)
