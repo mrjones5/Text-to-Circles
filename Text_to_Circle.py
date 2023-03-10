@@ -125,7 +125,7 @@ if st.button('Create Image'):
          for n, letter in enumerate(name):
              # add a new subplot iteratively
 
-             ax = plt.subplot(int(round(math.sqrt(name_length),0)), int(round(math.sqrt(name_length),0)+1), n + 1)
+             fig, ax = plt.subplot(int(round(math.sqrt(name_length),0)), int(round(math.sqrt(name_length),0)+1), n + 1)
 
              # filter df and plot ticker on the new subplot axis
              mapped_value = ord(letter)-96
@@ -145,4 +145,4 @@ if st.button('Create Image'):
          #plt.subplots_adjust(wspace=0.05, hspace=0.05)
 
          #Display it in the Streamlit app
-         st.pyplot(plt.subplots_adjust(wspace=0.05, hspace=0.05))
+         st.pyplot(fig)
