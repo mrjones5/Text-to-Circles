@@ -1,6 +1,6 @@
 matplotlib
 python-math
 pandas
-re
+regex
 numpy
 streamlit
