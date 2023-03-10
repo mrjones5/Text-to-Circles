@@ -21,7 +21,7 @@ if 'input' not in st.session_state:
 #Make a simple app that takes a few inputs and generates an image
 
 #Create a header
-st.header("Translate Text to Colored Circles")
+st.write("# Translate Text to Colored Circles")
 
 #Write a description
 st.write("### Wait, what!? Each letter of the alphabet has been mapped to an rgba \
