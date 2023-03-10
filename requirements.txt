@@ -1,5 +1,5 @@
 matplotlib
-math
+python-math
 pandas
 re
 numpy
