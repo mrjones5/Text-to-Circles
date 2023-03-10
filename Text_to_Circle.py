@@ -24,7 +24,7 @@ if 'input' not in st.session_state:
 st.write("# Translate Text to Colored Circles")
 
 #Write a description
-st.write("### Wait, what!? Each letter of the alphabet has been mapped to an rgba \
+st.write("#### Wait, what!? Each letter of the alphabet has been mapped to an rgba \
          color. Enter any text to generate an image!")
 
 #Create a text input box
