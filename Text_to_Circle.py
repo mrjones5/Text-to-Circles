@@ -13,6 +13,7 @@ import pandas as pd
 import re
 import numpy as np
 import streamlit as st
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 if 'input' not in st.session_state:
     st.session_state.input = ""
