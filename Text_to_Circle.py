@@ -47,6 +47,8 @@ if st.button('Create Image'):
          name = list(lower_input)
          #Store the length of the input
          name_length = len(name)
+            
+         st.write(name_length)
 
          #generate rgba codes
          #Set minimum
