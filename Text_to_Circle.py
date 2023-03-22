@@ -162,7 +162,7 @@ if st.button('Encrpyt Message'):
 
 
 #Disclaimer
-col1, col2 = st.columns()
+col1, col2 = st.columns(2)
 with col1:
     st.write("Special Note: I do not recommend using this for real message encryption.\
     It is just meant to be a fun demonstration. If you want the backstory, you can \
