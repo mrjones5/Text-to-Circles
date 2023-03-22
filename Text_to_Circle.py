@@ -28,7 +28,7 @@ st.write("#### Each letter of the alphabet has been mapped to an rgba \
          color. Enter any text to generate an image!")
 
 #Create a text input box
-input = st.text_input("Enter text", "abcdefg")
+input = st.text_input("Enter text", "abcdefghijklmnopqrstuvwxyz")
 
 #Submit buttons
 if st.button('Create Image'):
