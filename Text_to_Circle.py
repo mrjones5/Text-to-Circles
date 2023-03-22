@@ -152,7 +152,7 @@ if st.button('Encrpyt Message'):
          #Display it in the Streamlit app
          st.pyplot(fig)
 
-        with open("encrypted_message.png", "rb") as file:
+         with open("encrypted_message.png", "rb") as file:
             btn = st.download_button(
             label="Download image",
             data=file,
