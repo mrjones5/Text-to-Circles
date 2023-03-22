@@ -154,7 +154,7 @@ if st.button('Encrpyt Message'):
 
          with open("encrypted_message.png", "rb") as file:
             btn = st.download_button(
-            label="Download image",
+            label="Download as Image",
             data=file,
             file_name="encrypted_message.png",
             mime="image/png"
