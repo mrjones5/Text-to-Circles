@@ -149,5 +149,5 @@ if st.button('Encrpyt Message'):
 
 #Disclaimer
 st.write("Special Note: I do not recommend using this for real message encryption.\
-It is just meant to be a fun demonstration. If you want the backstory, you can \
-read more in my GitHub Wiki.")
+ It is just meant to be a fun demonstration. If you want the backstory, you can \
+read more in my GitHub Wiki. https://github.com/mrjones5/Text-to-Circles")
