@@ -152,13 +152,13 @@ if st.button('Encrpyt Message'):
          #Display it in the Streamlit app
          st.pyplot(fig)
 
-# with open("flower.png", "rb") as file:
-#    btn = st.download_button(
-#            label="Download image",
-###            data=file,
-#            file_name="flower.png",
-#            mime="image/png"
-#          )            
+        with open("encrypted_message.png", "rb") as file:
+            btn = st.download_button(
+            label="Download image",
+            data=file,
+            file_name="encrypted_message.png",
+            mime="image/png"
+         )            
 
 #Disclaimer
 st.write("Special Note: I do not recommend using this for real message encryption.\
