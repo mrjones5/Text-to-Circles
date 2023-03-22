@@ -160,6 +160,7 @@ if st.button('Encrpyt Message'):
             mime="image/png"
          )            
 
+        st.image("https://imgs.xkcd.com/comics/encryption.png")
 #Disclaimer
 st.write("Special Note: I do not recommend using this for real message encryption.\
  It is just meant to be a fun demonstration. If you want the backstory, you can \
