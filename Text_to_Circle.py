@@ -24,8 +24,9 @@ if 'input' not in st.session_state:
 st.write("# Encrypt a Message!")
 
 #Write a description
-st.write("#### Each letter of the alphabet has been mapped to a \
-         color. Enter any text encode your text!")
+st.write("##### Each letter of the alphabet has been mapped to a \
+         color. Punctuation, spaces, and special characters are automatically removed.\
+         You can enter anything from a letter to a whole block of text.")
 
 #Create a text input box
 input = st.text_input("Enter text", "abcdefghijklmnopqrstuvwxyz")
