@@ -146,6 +146,8 @@ if st.button('Encrpyt Message'):
 
          #Display it in the Streamlit app
          st.pyplot(fig)
+            
+         fig.savefig('encrypted_message.jpg')
 
 #Disclaimer
 st.write("Special Note: I do not recommend using this for real message encryption.\
