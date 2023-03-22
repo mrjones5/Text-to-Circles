@@ -162,10 +162,7 @@ if st.button('Encrpyt Message'):
 
 st.markdown("-----")
 #Disclaimer
-col1, col2 = st.columns(2)
-with col1:
-    st.write("Special Note: I do not recommend using this for real message encryption.\
-    It is just meant to be a fun demonstration. If you want the backstory, you can \
-    read more in my GitHub Wiki. https://github.com/mrjones5/Text-to-Circles")
-with col2:
-    st.image("https://imgs.xkcd.com/comics/encryption.png")
+st.write("Special Note: I do not recommend using this for real message encryption.\
+It is just meant to be a fun demonstration. If you want the backstory, you can \
+read more in my GitHub Wiki. https://github.com/mrjones5/Text-to-Circles")
+
