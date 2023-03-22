@@ -21,11 +21,11 @@ if 'input' not in st.session_state:
 #Make a simple app that takes a few inputs and generates an image
 
 #Create a header
-st.write("# Translate Text to Colored Circles")
+st.write("# Encrypt a Message!")
 
 #Write a description
-st.write("#### Each letter of the alphabet has been mapped to an rgba \
-         color. Enter any text to generate an image!")
+st.write("#### Each letter of the alphabet has been mapped to a \
+         color. Enter any text encode your text!")
 
 #Create a text input box
 input = st.text_input("Enter text", "abcdefghijklmnopqrstuvwxyz")
