@@ -17,6 +17,9 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 if 'input' not in st.session_state:
     st.session_state.input = ""
+    
+if 'encrpyted_message' not in st.session_state:
+    st.session_state.encrypted_message = ''
 
 #Make a simple app that takes a few inputs and generates an image
 
@@ -144,9 +147,18 @@ if st.button('Encrpyt Message'):
          #Generate the plot
          fig = plt.subplots_adjust(wspace=0.05, hspace=0.05)
 
+         #Save the plot
+         st.session_state.encrypted_message = fig.savefig()
          #Display it in the Streamlit app
          st.pyplot(fig)
-            
+
+# with open("flower.png", "rb") as file:
+#    btn = st.download_button(
+#            label="Download image",
+###            data=file,
+#            file_name="flower.png",
+#            mime="image/png"
+#          )            
 
 #Disclaimer
 st.write("Special Note: I do not recommend using this for real message encryption.\
