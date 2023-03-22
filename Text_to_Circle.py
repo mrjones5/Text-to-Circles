@@ -148,7 +148,7 @@ if st.button('Encrpyt Message'):
          fig = plt.subplots_adjust(wspace=0.05, hspace=0.05)
 
          #Save the plot
-         st.session_state.encrypted_message = plt.savefig()
+         st.session_state.encrypted_message = plt.savefig("encrypted_message.png")
          #Display it in the Streamlit app
          st.pyplot(fig)
 
