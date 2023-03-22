@@ -29,7 +29,7 @@ st.write("##### Each letter of the alphabet has been mapped to a \
          You can enter anything from a letter to a whole block of text.")
 
 #Create a text input box
-input = st.text_input("Enter text", "abcdefghijklmnopqrstuvwxyz")
+input = st.text_input("Encrpyt Message", "abcdefghijklmnopqrstuvwxyz")
 
 #Submit buttons
 if st.button('Create Image'):
