@@ -29,10 +29,10 @@ st.write("##### Each letter of the alphabet has been mapped to a \
          You can enter anything from a letter to a whole block of text.")
 
 #Create a text input box
-input = st.text_input("Encrpyt Message", "abcdefghijklmnopqrstuvwxyz")
+input = st.text_input("Enter Text", "abcdefghijklmnopqrstuvwxyz")
 
 #Submit buttons
-if st.button('Create Image'):
+if st.button('Encrpyt Message'):
          st.session_state.input = input
 
          #Generate the charts
@@ -146,3 +146,8 @@ if st.button('Create Image'):
 
          #Display it in the Streamlit app
          st.pyplot(fig)
+
+#Disclaimer
+st.write("Special Note: I do not recommend using this for real message encryption.\
+It is just meant to be a fun demonstration. If you want the backstory, you can \
+read more in my GitHub Wiki.")
