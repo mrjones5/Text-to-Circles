@@ -35,7 +35,7 @@ st.write("Each letter of the alphabet has been mapped to a \
 input = st.text_input("Enter Text", "abcdefghijklmnopqrstuvwxyz")
 
 #Submit buttons
-if st.button('Encrpyt Message'):
+if st.button('Encrypt Message'):
          st.session_state.input = input
 
          #Generate the charts
